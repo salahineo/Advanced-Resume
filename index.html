@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Meta Info -->
+    <meta charset="utf-8" />
+    <meta name="description" content="Advanced Resume Web Design" />
+    <meta name="keywords" content="Online Resume, Advanced Resume, Resume" />
+    <meta name="author" content="Mohamed Salah" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Page Title -->
+    <title>Advanced Resume</title>
+
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/normalize.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Settings -->
+    <div class="settings">
+      <div class="toggler">
+        <i class="fas fa-cog gear"></i>
+      </div>
+      <div class="settingsContent">
+        <div class="option">
+          <h3>Theme Color</h3>
+          <ul class="colorsList">
+            <li class="color active" data-color="#ff9b20"></li>
+            <li class="color" data-color="#03cfcf"></li>
+            <li class="color" data-color="#a631e0"></li>
+            <li class="color" data-color="#5959e7"></li>
+            <li class="color" data-color="#638f16"></li>
+          </ul>
+        </div>
+        <div class="option background">
+          <h3>Random Background</h3>
+          <button class="optionBtn yes active" data-background="yes">
+            Yes
+          </button>
+          <button class="optionBtn no" data-background="no">No</button>
+        </div>
+        <div class="option bullets">
+          <h3>Navigation Bullets</h3>
+          <button class="active optionBtn yes" data-bullet="yes">
+            Yes
+          </button>
+          <button class="optionBtn no" data-bullet="no">No</button>
+        </div>
+        <button class="reset">Default Settings</button>
+      </div>
+    </div>
+    <!-- End Settings -->
+
+    <!-- Start Nav Bullets -->
+    <div class="navbullets">
+      <div class="bullet" data-nav="home"></div>
+      <div class="bullet" data-nav="about"></div>
+      <div class="bullet" data-nav="skills"></div>
+      <div class="bullet" data-nav="portfolio"></div>
+      <div class="bullet" data-nav="timeline"></div>
+      <div class="bullet" data-nav="features"></div>
+      <div class="bullet" data-nav="testimonial"></div>
+      <div class="bullet" data-nav="contact"></div>
+    </div>
+    <!-- End Nav Bullets -->
+
+    <!-- Start Header -->
+    <div class="header" id="home">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">Mohamed <span>Salah</span></div>
+          <ul class="nav-links">
+            <li class="link" data-nav="about">About</li>
+            <li class="link" data-nav="skills">Skills</li>
+            <li class="link" data-nav="portfolio">Portfolio</li>
+            <li class="link" data-nav="timeline">Timeline</li>
+            <li class="link" data-nav="features">Features</li>
+            <li class="link" data-nav="testimonial">Testimonials</li>
+            <li class="link" data-nav="contact">Contact</li>
+          </ul>
+          <button class="toggleNav"><i class="fas fa-bars"></i></button>
+        </div>
+        <div class="intro">
+          <h1>Salahineo</h1>
+          <p>
+            The Expert In Anything Was Once A Beginner
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End Header -->
+
+    <!-- Start About -->
+    <div class="about newSection" id="about">
+      <div class="container">
+        <h2 class="sectionHeading">About Me</h2>
+        <div class="info">
+          <div class="aboutImage">
+            <img src="images/about-ff9b20.png" alt="About" />
+          </div>
+          <div class="aboutInfo">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ratione, possimus! Beatae
+              repellat saepe similique ullam velit provident accusamus iure fugiat ipsum itaque
+              quasi nesciunt delectus corrupti molestiae, sint, nisi, minima cupiditate cum veniam
+              nobis blanditiis. Iste dolore pariatur excepturi quia!
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About -->
+
+    <div class="container">
+      <hr />
+    </div>
+
+    <!-- Start Skills -->
+    <div class="skills newSection" id="skills">
+      <div class="container">
+        <h2 class="sectionHeading">Technical Skills</h2>
+        <div class="skillsContainer">
+          <div class="skillsImage">
+            <img src="images/skill-ff9b20.png" alt="Skills" />
+          </div>
+          <div class="skillsInfo">
+            <div class="skill">
+              <div class="skillName">
+                <h3>HTML</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="90%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillName">
+                <h3>CSS</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="85%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillName">
+                <h3>JavaScript</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="70%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillName">
+                <h3>jQuery</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="75%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillName">
+                <h3>Bootstrap</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="80%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillName">
+                <h3>PHP</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="85%"></span>
+              </div>
+            </div>
+            <div class="skill">
+              <div class="skillName">
+                <h3>MySQL</h3>
+              </div>
+              <div class="skill-progress">
+                <span data-progress="75%"></span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Skills -->
+
+    <div class="container">
+      <hr />
+    </div>
+
+    <!-- Start Portfolio -->
+    <div class="portfolio newSection" id="portfolio">
+      <div class="container">
+        <h2 class="sectionHeading">Projects Portfolio</h2>
+        <div class="portfolioGallery">
+          <img src="images/portfolio-1.png" alt="First Website" />
+          <img src="images/portfolio-2.jpg" alt="Second Website" />
+          <img src="images/portfolio-3.jpg" alt="Third Website" />
+          <img src="images/portfolio-4.jpg" alt="Fourth Website" />
+          <img src="images/portfolio-5.png" alt="Fifth Website" />
+          <img src="images/portfolio-6.png" alt="Sixth Website" />
+          <img src="images/portfolio-7.png" alt="Seventh Website" />
+          <img src="images/portfolio-8.png" alt="Eighth Website" />
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Portfolio -->
+
+    <div class="container">
+      <hr />
+    </div>
+
+    <!-- Start Timeline -->
+    <div class="timeline newSection" id="timeline">
+      <div class="container">
+        <h2 class="sectionHeading">Education Timeline</h2>
+        <div class="timelineContent">
+          <div class="year">Nov 2019</div>
+          <div class="left">
+            <div class="content">
+              <h3>Udacity ITI Diploma</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, asper quos quisquam
+                possimus sequi omnis.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Front-End Diploma</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, asper quos quisquam
+                possimus sequi omnis.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">Mar 2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Back-End Diploma</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, asper quos quisquam
+                possimus sequi omnis.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Dev-Ops Diploma</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, asper quos quisquam
+                possimus sequi omnis.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">Aug 2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Github</h3>
+              <p>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod, asper quos quisquam
+                possimus sequi omnis.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+
+    <div class="container">
+      <hr />
+    </div>
+
+    <!-- Start Features -->
+    <div class="features newSection" id="features">
+      <div class="container">
+        <h2 class="sectionHeading">Features</h2>
+        <div class="row">
+          <div class="feat">
+            <div class="featIcon">
+              <i class="fas fa-tachometer-alt"></i>
+            </div>
+            <h3>Rapid Development</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, laudantium.
+            </p>
+          </div>
+          <div class="feat">
+            <div class="featIcon">
+              <i class="fas fa-bolt"></i>
+            </div>
+            <h3>Better Performance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, laudantium.
+            </p>
+          </div>
+          <div class="specialClearFix"></div>
+          <div class="feat">
+            <div class="featIcon">
+              <i class="fas fa-database"></i>
+            </div>
+            <h3>Regular Maintenance</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, laudantium.
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="feat">
+            <div class="featIcon">
+              <i class="fas fa-server"></i>
+            </div>
+            <h3>Hosting Management</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, laudantium.
+            </p>
+          </div>
+          <div class="feat">
+            <div class="featIcon">
+              <i class="fas fa-comment-alt"></i>
+            </div>
+            <h3>Contact Anytime</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, laudantium.
+            </p>
+          </div>
+
+          <div class="feat">
+            <div class="featIcon">
+              <i class="fas fa-dollar-sign"></i>
+            </div>
+            <h3>Fair Price</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, laudantium.
+            </p>
+          </div>
+          <div class="specialClearFix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Features -->
+
+    <!-- Start Testimonial -->
+    <div class="clearfix"></div>
+    <div class="testimonial newSection" id="testimonial">
+      <div class="container">
+        <h2 class="sectionHeading">Testimonials</h2>
+        <div class="testi">
+          <img src="images/testi-1.jpg" alt="First Person" />
+          <h3>Mohamed Ali</h3>
+          <span>Freelancer Customer</span>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, magni.
+          </p>
+        </div>
+        <div class="testi">
+          <img src="images/testi-2.jpg" alt="First Person" />
+          <h3>Omnia Emad</h3>
+          <span>HR At zCompany</span>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, magni.
+          </p>
+        </div>
+        <div class="specialClearfix2"></div>
+        <div class="testi last">
+          <img src="images/testi-3.jpg" alt="First Person" />
+          <h3>Ahmed Fadel</h3>
+          <span>CEO At xCompany</span>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus, magni.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Testimonial -->
+
+    <!-- Start Contact -->
+    <div class="contact newSection" id="contact">
+      <div class="container">
+        <div class="container">
+          <h2 class="sectionHeading">Contact Me</h2>
+          <form>
+            <div class="left">
+              <input type="text" name="username" placeholder="Your Name" />
+              <input type="email" name="email" placeholder="Your Email" />
+              <input type="tel" name="phone" placeholder="Your Phone" />
+              <input type="text" name="subject" placeholder="Subject" />
+            </div>
+            <div class="right">
+              <textarea name="message" placeholder="Your Message"></textarea>
+              <input type="submit" value="Send" />
+            </div>
+          </form>
+          <div class="clearfix"></div>
+        </div>
+      </div>
+    </div>
+    <!-- End Contact -->
+
+    <!-- Start Footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="copyright">&copy; 2020 - <span>Mohamed Salah</span></div>
+        <div class="links">
+          <a href="https://github.com/salahineo" target="_blank">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://twitter.com/salahineo" target="_blank">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="https://www.facebook.com/salahineo/" target="_blank">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/salahineo/" target="_blank">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="mailto:eng.mohamedsalah.it@gmail.com" target="_blank">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Footer -->
+
+    <!-- Script Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
