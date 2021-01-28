@@ -724,7 +724,7 @@ hr {
   font-weight: 600;
 }
 
-.copyright span {
+.copyright span.name {
   color: var(--primaryColor);
 }
 

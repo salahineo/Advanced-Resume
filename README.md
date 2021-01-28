@@ -15,7 +15,7 @@
 
 ### Goal
 
-This is an advanced resume web design. I coded this project to practice my knowledge of HTML, CSS, JavaScript, and jQuery in a real project.
+This is an advanced resume web design. I coded this project to practice on my knowledge of HTML, CSS, JavaScript, and jQuery in a real project.
 
 ### Benefits
 
@@ -52,7 +52,7 @@ Here is the demo of this [project](https://salahineo.github.io/Advanced-Resume/)
 ### Copyright and license
 
 - **[GPLv3](https://www.gnu.org/licenses/gpl-3.0)**
-- **© 2020 | Mohamed Salah**
+- **© 2021 | Mohamed Salah**
 
 ---
 
