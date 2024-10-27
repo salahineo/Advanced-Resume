@@ -718,13 +718,13 @@ hr {
 }
 
 .copyright {
-  float: left;
   width: 50%;
-  margin-top: 3px;
+  margin: 3px auto 0;
   font-weight: 600;
+  text-align: center;
 }
 
-.copyright span.name {
+.copyright .name {
   color: var(--primaryColor);
 }
 
